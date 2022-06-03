@@ -17,10 +17,14 @@ public class ProyectoRama {
         
     }
     //Maria
-    public static float promedioPuntos(int puntos[]){
-        
-        return 0;
+    public static float promedioPuntos(int puntos[]){ 
+        int suma = 0;  
+        for (int i = 0; i < puntos.length; i++) {
+            suma+= puntos[i];
+        }   
+        return suma/puntos.length;
     }
+    
     //Keshny
     public static void mostrarPuntosInverso(int puntos[]){
         
