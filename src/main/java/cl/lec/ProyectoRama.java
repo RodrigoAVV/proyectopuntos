@@ -10,7 +10,12 @@ public class ProyectoRama {
     }
     //Constanza
     public static void puntosMayores50(int puntos[]){
-        
+        int i;
+        for(i = 0 ; i < puntos.length ; i++){
+	if(puntos[i] > 50) {
+          System.out.print(puntos[i] + " ");
+          }
+        }
     }
     //Alejandro
     public static void puntosMenoresIguales50(){
