@@ -5,8 +5,18 @@ public class ProyectoRama {
         
     }
     //Wilgen
-    public static void buscarPunto(int puntos[],int buscar){
-        
+    int buscar = 70;
+    public static boolean buscarPunto(int puntos[],int buscar){
+        boolean flag = false;
+        for(int i = 0; i < puntos.length; i++){
+                if(puntos[i] == buscar){
+                    flag = true;
+                    break;
+             
+                    
+            }
+        }
+        return flag;
     }
     //Constanza
     public static void puntosMayores50(int puntos[]){
